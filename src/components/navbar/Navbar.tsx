@@ -23,10 +23,10 @@ function Navbar() {
 	         <Link to='/home' className='text-2xl font-bold'>Farmácia Boa Vida</Link>
 
                     <div className='flex gap-4'>
-                        Produtos
+                        <Link to='/produtos' className='hover:underline'>Produtos</Link>
                         <Link to='/categorias' className='hover:underline'>Categorias</Link>
                         <Link to='/cadastroCategoria' className='hover:underline'>Cadastrar Categoria</Link>
-                        Perfil
+                        <Link to='/perfil' className='hover:underline'>Perfil</Link>
                         <Link to='' onClick={logout} className='hover:underline'>Sair</Link>
                     </div>
                 </div>
