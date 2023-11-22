@@ -1,0 +1,8 @@
+.fundoLogin {
+    background-image: url("https://ictq.com.br/images/saiba-como-a-farmacia-deve-ser-higienizada-em-tempos-de-pandemia.jpg");
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
