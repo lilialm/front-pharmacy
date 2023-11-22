@@ -1,0 +1,8 @@
+.fundoCadastro {
+    background-image: url("https://img.freepik.com/fotos-gratis/farmaceutica-jovem-hispanica-sorrindo-confiante-em-pe-com-gesto-de-bracos-cruzados-na-farmacia_839833-7087.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
