@@ -1,8 +1,7 @@
+import ListaProdutos from "../../components/produtos/listaProdutos/ListaProdutos"
+import ModalProduto from "../../components/produtos/modalProduto/ModalProduto"
 
 function Home() {
-
-    
-
     return (
         <>
             <div className="bg-indigo-900 flex justify-center">
@@ -12,14 +11,12 @@ function Home() {
                             Seja Bem Vinde!
                         </h2>
                         <p className='text-xl'>
-                            Melhore sua saúde e qualidade de vida com a Farmácia Boa Vida
+                            Melhore sua qualidade de vida com nossos produtos.
                         </p>
 
                         <div className="flex justify-around gap-4">
-                            <div className='rounded text-white 
-                                            border-white border-solid border-2 py-2 px-4'
-                                >
-                                Nova Postagem
+                            <div className="flex justify-around gap-4">
+                                <ModalProduto />
                             </div>
                         </div>
                     </div>
@@ -33,6 +30,8 @@ function Home() {
                     </div>
                 </div>
             </div>
+
+            <ListaProdutos />
         </>
     )
 }
